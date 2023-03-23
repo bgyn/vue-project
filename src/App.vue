@@ -22,7 +22,7 @@
   <div class="slider">
     <div class="slider_container">
       <div class="slider_img">
-        <img src="model.png" alt="model_img" />
+        <img src="model.jpg" alt="model_img" />
       </div>
       <div class="slider_content">
         <h2 class="title">
@@ -42,6 +42,7 @@
 <!-- slider -->
 </template>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 :root {
   --nav_bg: #272727;
   --logo_color: #beb698;
@@ -50,18 +51,15 @@
   --dawn_pink: #ececec;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-}
-
-body {
   font-family: 'Heebo', sans-serif;
 }
+
 .nav_navbar {
   width: 100%;
 }
@@ -85,7 +83,6 @@ body {
   font-size: 1.2rem;
 }
 .nav_navbar .navbar_links .nav_logo .img_logo {
-  color: var(--logo_color);
   position: absolute;
   top: -50%;
   right: 50%;
@@ -110,14 +107,12 @@ body {
   justify-content: space-between;
 }
 .slider .slider_container .slider_img img {
-  position: relative;
-  top: -10%;
+  width: 100%;
 }
 .slider .slider_container .slider_content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transform: translateY(-20%);
 }
 .slider .slider_container .slider_content .title {
   color: var(--slider_title);
