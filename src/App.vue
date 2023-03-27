@@ -10,7 +10,7 @@
       </div>
       <div class="nav_logo">
         <a href="#">JEWELERY</a>
-        <img src="diamond.png" alt="img_logo" class="img_logo" />
+        <img src="/public/diamond.png" alt="img_logo" class="img_logo" />
       </div>
       <div class="nav_right">
         <li class="nav_links"><a href="#services">SERVICES</a></li>
@@ -520,6 +520,8 @@ html{
 #footer {
   background-color: #ececec;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer_container {
