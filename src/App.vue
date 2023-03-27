@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+console.log('hello');
+</script>
 
 <template>
   <!-- navbar -->
@@ -10,7 +12,7 @@
       </div>
       <div class="nav_logo">
         <a href="#">JEWELERY</a>
-        <img src="/public/diamond.png" alt="img_logo" class="img_logo" />
+        <img src="/diamond.png" alt="img_logo" class="img_logo" />
       </div>
       <div class="nav_right">
         <li class="nav_links"><a href="#services">SERVICES</a></li>
@@ -246,7 +248,7 @@
           <li><a href="#">Orders</a></li>
           <li><a href="#">Downloads</a></li>
           <li><a href="#">Addresss</a></li>
-          <li><a href="#">Acount Details</a></li>
+          <li><a href="#">Account Details</a></li>
           <li><a href="#">Lost password</a></li>
         </ul>
       </div>
@@ -270,6 +272,7 @@
   </footer>
   <!-- footer -->
 </template>
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
@@ -337,6 +340,7 @@ html{
   width: 100%;
   background-color: black;
   display: flex;
+  padding-right: 8rem;
 }
 .slider .slider_container .slider_img {
   overflow-y: hidden;
@@ -353,18 +357,17 @@ html{
 .slider .slider_container .slider_content .title {
   color: var(--slider_title);
   font-weight: 200;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-size: 2rem;
   margin-bottom: 1rem;
   cursor: pointer;
 }
 .slider .slider_container .slider_content .content {
   color: white;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  line-height: 19px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 20px;
   cursor: pointer;
-  padding-right: 2rem;
 }
 .slider .slider_container .slider_content .btn {
   color: var(--slider_title);
